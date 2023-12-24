@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-MODEL_NAME = 'model_cardio_04_03_23.pcl'
+MODEL_NAME = 'model_cardio.pcl'
 
 
 # definition load-model function 

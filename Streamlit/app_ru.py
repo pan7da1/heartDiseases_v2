@@ -76,7 +76,7 @@ ap_lo = mcol.selectbox('Нижнее (диастолическое) средне
 chol = mcol.selectbox('Ваш уровень холестерина:', [1, 2, 3], key='cholesteerol')
 gluc = mcol.selectbox('Ваш уровень глюкозы', [1, 2, 3], key='glucose')
 # правая колонка
-rcol.write('Вы курите? ')
+rcol.write('Вы курите?')
 smoke = rcol.checkbox('Да', key='smoke')
 rcol.write('Вы употребляете алкоголь?')
 alco = rcol.checkbox('Да', key='alco')

@@ -69,9 +69,9 @@ age = lcol.selectbox('Ваш возраст, лет:', [*range(1, 120)], index=3
 height = lcol.slider('Ваш рост, м', 0.5, 2.5, 1.75)
 weight = lcol.slider('Ваш вес, кг:', 40, 200, 80)
 # средняя колонка
-ap_hi = mcol.selectbox('Верхнее (систолическое) давление, мм рт.ст:',
+ap_hi = mcol.selectbox('Верхнее (систолическое) среднее давление, мм рт.ст:',
                        [*range(40, 271)], index=80, key='ap_hi')
-ap_lo = mcol.selectbox('Нижнее (диастолическое) давление, мм рт.ст:',
+ap_lo = mcol.selectbox('Нижнее (диастолическое) среднее давление, мм рт.ст:',
                        [*range(20, 161)], index=60, key='ap_lo')
 chol = mcol.selectbox('Ваш уровень холестерина:', [1, 2, 3], key='cholesteerol')
 gluc = mcol.selectbox('Ваш уровень глюкозы', [1, 2, 3], key='glucose')

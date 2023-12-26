@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import os
 
-MODEL_NAME = 'model_cardio.pcl'
+MODEL_NAME = 'model_cardio_26_12_23.pcl'
 
 
 # функция для загрузки модели
